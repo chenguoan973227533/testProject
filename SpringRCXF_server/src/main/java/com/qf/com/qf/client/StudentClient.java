@@ -14,6 +14,7 @@ import java.net.URLConnection;
  */
 public class StudentClient {
     public static void main(String[] args) {
+        /*ssssssssssssssssssssssssss*/
         try {
             URL url=new URL("http://localhost:8090/student/stu/2");
             HttpURLConnection connection = (HttpURLConnection)url.openConnection();
